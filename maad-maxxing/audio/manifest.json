@@ -1,0 +1,1503 @@
+{
+ "made": "2026-11-12T16:45:55.973Z",
+ "note": "Generated once with ElevenLabs (tools/audio/gen.mjs), processed by tools/audio/build.mjs. Nothing calls an API at play, dev, build or test time.",
+ "sounds": [
+  {
+   "name": "eng_hero_low",
+   "file": "eng_hero_low.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 1,
+   "loudness": -21.8,
+   "peak": -8.5
+  },
+  {
+   "name": "eng_hero_mid",
+   "file": "eng_hero_mid.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.999,
+   "loudness": -20.2,
+   "peak": -7
+  },
+  {
+   "name": "eng_hero_high",
+   "file": "eng_hero_high.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.998,
+   "loudness": -18.9,
+   "peak": -8.4
+  },
+  {
+   "name": "eng_raider_buggy",
+   "file": "eng_raider_buggy.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.997,
+   "loudness": -22.8,
+   "peak": -2.5
+  },
+  {
+   "name": "eng_raider_spiker",
+   "file": "eng_raider_spiker.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 1,
+   "loudness": -16.2,
+   "peak": -7.5
+  },
+  {
+   "name": "eng_raider_hauler",
+   "file": "eng_raider_hauler.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 1,
+   "loudness": -20.8,
+   "peak": -8.9
+  },
+  {
+   "name": "tyre_sand",
+   "file": "tyre_sand.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 4,
+   "loop": {
+    "start": 0.1,
+    "length": 4
+   },
+   "seam": 0.977,
+   "loudness": -19.2,
+   "peak": -9.2
+  },
+  {
+   "name": "wind_desert",
+   "file": "wind_desert.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 1,
+   "loudness": -28.5,
+   "peak": -10.8
+  },
+  {
+   "name": "metal_tick",
+   "file": "metal_tick.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 4,
+   "loop": {
+    "start": 0.1,
+    "length": 4
+   },
+   "seam": 0.996,
+   "loudness": -18.4,
+   "peak": -6.4
+  },
+  {
+   "name": "fire_roar",
+   "file": "fire_roar.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 1,
+   "loudness": -24.7,
+   "peak": -12.8
+  },
+  {
+   "name": "boost",
+   "file": "boost.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.729,
+   "loudness": -8.7,
+   "peak": -1.8,
+   "rmsDb": -9.3,
+   "peakAt": 0.49
+  },
+  {
+   "name": "slam",
+   "file": "slam.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.858,
+   "loudness": -16.8,
+   "peak": -2,
+   "rmsDb": -18.2,
+   "peakAt": 0.17
+  },
+  {
+   "name": "passby",
+   "file": "passby.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.027,
+   "loudness": -15.5,
+   "peak": -2.4,
+   "rmsDb": -15,
+   "peakAt": 0.8
+  },
+  {
+   "name": "metal_hit_1",
+   "file": "metal_hit_1.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.792,
+   "loudness": -17.2,
+   "peak": -1,
+   "rmsDb": -17.6,
+   "peakAt": 0.05
+  },
+  {
+   "name": "metal_hit_2",
+   "file": "metal_hit_2.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.137,
+   "loudness": -14.8,
+   "peak": -2.5,
+   "rmsDb": -18.3,
+   "peakAt": 0.32
+  },
+  {
+   "name": "metal_hit_3",
+   "file": "metal_hit_3.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.959,
+   "loudness": -25.8,
+   "peak": -2.4,
+   "rmsDb": -24,
+   "peakAt": 0.03
+  },
+  {
+   "name": "ram_1",
+   "file": "ram_1.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.135,
+   "loudness": -16.1,
+   "peak": -2.3,
+   "rmsDb": -14,
+   "peakAt": 0.06
+  },
+  {
+   "name": "ram_2",
+   "file": "ram_2.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2,
+   "loudness": -13.1,
+   "peak": -2.2,
+   "rmsDb": -15.1,
+   "peakAt": 0.12
+  },
+  {
+   "name": "landing",
+   "file": "landing.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.48,
+   "loudness": -16.4,
+   "peak": -2.4,
+   "rmsDb": -15.6,
+   "peakAt": 0.05
+  },
+  {
+   "name": "explosion",
+   "file": "explosion.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 4,
+   "loudness": -14.9,
+   "peak": -2.3,
+   "rmsDb": -13.9,
+   "peakAt": 0.07
+  },
+  {
+   "name": "debris",
+   "file": "debris.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.43,
+   "loudness": -19.8,
+   "peak": -2.2,
+   "rmsDb": -24.7,
+   "peakAt": 0.55
+  },
+  {
+   "name": "shriek",
+   "file": "shriek.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -14.7,
+   "peak": -2.4,
+   "rmsDb": -16.2,
+   "peakAt": 0.63
+  },
+  {
+   "name": "horn_stab",
+   "file": "horn_stab.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.72,
+   "loudness": -9.1,
+   "peak": -2.5,
+   "rmsDb": -9.8,
+   "peakAt": 0.18
+  },
+  {
+   "name": "horn_call",
+   "file": "horn_call.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3.48,
+   "loudness": -9.8,
+   "peak": -3.6,
+   "rmsDb": -10.7,
+   "peakAt": 0.34
+  },
+  {
+   "name": "lance_swing",
+   "file": "lance_swing.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.621,
+   "loudness": -17.8,
+   "peak": -2.4,
+   "rmsDb": -16.1,
+   "peakAt": 0.07
+  },
+  {
+   "name": "lance_strike",
+   "file": "lance_strike.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -18.3,
+   "peak": -2,
+   "rmsDb": -21.9,
+   "peakAt": 0.03
+  },
+  {
+   "name": "warcry_1",
+   "file": "warcry_1.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.409,
+   "loudness": -11,
+   "peak": -2.4,
+   "rmsDb": -11.2,
+   "peakAt": 0.79
+  },
+  {
+   "name": "warcry_2",
+   "file": "warcry_2.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.963,
+   "loudness": -12.8,
+   "peak": -2.4,
+   "rmsDb": -12.9,
+   "peakAt": 0.41
+  },
+  {
+   "name": "warcry_3",
+   "file": "warcry_3.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.173,
+   "loudness": -8.6,
+   "peak": -2.4,
+   "rmsDb": -9.5,
+   "peakAt": 0.67
+  },
+  {
+   "name": "hammering",
+   "file": "hammering.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.846,
+   "loudness": -19.3,
+   "peak": -2.2,
+   "rmsDb": -22.4,
+   "peakAt": 1
+  },
+  {
+   "name": "pot_whoosh",
+   "file": "pot_whoosh.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.385,
+   "loudness": -17.8,
+   "peak": -2.3,
+   "rmsDb": -17.8,
+   "peakAt": 0.33
+  },
+  {
+   "name": "pot_burst",
+   "file": "pot_burst.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.48,
+   "loudness": -18.3,
+   "peak": -2.4,
+   "rmsDb": -17,
+   "peakAt": 1.33
+  },
+  {
+   "name": "unwreck",
+   "file": "unwreck.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.35,
+   "loudness": -18,
+   "peak": -1.7,
+   "rmsDb": -19.4,
+   "peakAt": 1.3,
+   "whole": true
+  },
+  {
+   "name": "title_tear",
+   "file": "title_tear.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.76,
+   "loudness": -16.1,
+   "peak": -2.2,
+   "rmsDb": -17.8,
+   "peakAt": 0.06
+  },
+  {
+   "name": "wheel_fire",
+   "file": "wheel_fire.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.931,
+   "loudness": -17.9,
+   "peak": -2.4,
+   "rmsDb": -16.9,
+   "peakAt": 0.2
+  },
+  {
+   "name": "passby_v8",
+   "file": "passby_v8.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.354,
+   "loudness": -15.9,
+   "peak": -2.3,
+   "rmsDb": -18.2,
+   "peakAt": 1.17
+  },
+  {
+   "name": "passby_truck",
+   "file": "passby_truck.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.7,
+   "loudness": -12.3,
+   "peak": -2.4,
+   "rmsDb": -10.6,
+   "peakAt": 0.77
+  },
+  {
+   "name": "crew_cry_1",
+   "file": "crew_cry_1.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -9.6,
+   "peak": -2.3,
+   "rmsDb": -10.3,
+   "peakAt": 0.05
+  },
+  {
+   "name": "crew_cry_2",
+   "file": "crew_cry_2.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.48,
+   "loudness": -10.3,
+   "peak": -2.2,
+   "rmsDb": -11.3,
+   "peakAt": 0.06
+  },
+  {
+   "name": "crew_cry_3",
+   "file": "crew_cry_3.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.07,
+   "loudness": -14.1,
+   "peak": -2.4,
+   "rmsDb": -14.3,
+   "peakAt": 0.08
+  },
+  {
+   "name": "grind",
+   "file": "grind.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.995,
+   "loudness": -19.5,
+   "peak": -8
+  },
+  {
+   "name": "scrape_1",
+   "file": "scrape_1.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.122,
+   "loudness": -11.4,
+   "peak": -2.2,
+   "rmsDb": -13.7,
+   "peakAt": 0.52
+  },
+  {
+   "name": "shove_thump",
+   "file": "shove_thump.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.75,
+   "loudness": -24.7,
+   "peak": -2.4,
+   "rmsDb": -22,
+   "peakAt": 0.03
+  },
+  {
+   "name": "hauler_slam",
+   "file": "hauler_slam.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.938,
+   "loudness": -23.5,
+   "peak": -2.4,
+   "rmsDb": -21,
+   "peakAt": 0.03
+  },
+  {
+   "name": "crunch",
+   "file": "crunch.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.168,
+   "loudness": -17.6,
+   "peak": -2.1,
+   "rmsDb": -19.2,
+   "peakAt": 0.16
+  },
+  {
+   "name": "crew_cry_4",
+   "file": "crew_cry_4.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.454,
+   "loudness": -9.5,
+   "peak": -2.4,
+   "rmsDb": -10,
+   "peakAt": 0.35
+  },
+  {
+   "name": "air_suck",
+   "file": "air_suck.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 0.846,
+   "loudness": -13.1,
+   "peak": -1.8,
+   "rmsDb": -17.4,
+   "peakAt": 0.5
+  },
+  {
+   "name": "ramp_swell",
+   "file": "ramp_swell.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 0.9,
+   "loudness": -17.6,
+   "peak": -2.2,
+   "rmsDb": -20.7,
+   "peakAt": 0.86,
+   "whole": true
+  },
+  {
+   "name": "ramp_whoosh",
+   "file": "ramp_whoosh.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.05,
+   "loudness": -18,
+   "peak": -2,
+   "rmsDb": -18.3,
+   "peakAt": 0.2
+  },
+  {
+   "name": "sub_drop",
+   "file": "sub_drop.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.48,
+   "loudness": -10.5,
+   "peak": -2.4,
+   "rmsDb": -5,
+   "peakAt": 0.87
+  },
+  {
+   "name": "eng_raider_trike",
+   "file": "eng_raider_trike.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.998,
+   "loudness": -19.9,
+   "peak": -8.5
+  },
+  {
+   "name": "eng_plough",
+   "file": "eng_plough.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.998,
+   "loudness": -19.5,
+   "peak": -6.9
+  },
+  {
+   "name": "plough_blade",
+   "file": "plough_blade.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.998,
+   "loudness": -21.6,
+   "peak": -5.7
+  },
+  {
+   "name": "chain_whirr",
+   "file": "chain_whirr.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 2,
+   "loop": {
+    "start": 0.1,
+    "length": 2
+   },
+   "seam": 0.992,
+   "loudness": -19.6,
+   "peak": -1.7
+  },
+  {
+   "name": "wind_storm",
+   "file": "wind_storm.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 1,
+   "loudness": -23.7,
+   "peak": -10.6
+  },
+  {
+   "name": "chain_lash",
+   "file": "chain_lash.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.736,
+   "loudness": -18.8,
+   "peak": -3,
+   "rmsDb": -19.1,
+   "peakAt": 0.03
+  },
+  {
+   "name": "rider_whoop",
+   "file": "rider_whoop.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2,
+   "loudness": -12.9,
+   "peak": -2.4,
+   "rmsDb": -16.8,
+   "peakAt": 0.64
+  },
+  {
+   "name": "boulder_fall",
+   "file": "boulder_fall.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.308,
+   "loudness": -20.6,
+   "peak": -2.4,
+   "rmsDb": -20,
+   "peakAt": 0.06
+  },
+  {
+   "name": "boulder_crack",
+   "file": "boulder_crack.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.685,
+   "loudness": -19.3,
+   "peak": -2.3,
+   "rmsDb": -18.7,
+   "peakAt": 0.05
+  },
+  {
+   "name": "wall_burst",
+   "file": "wall_burst.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3,
+   "loudness": -16.3,
+   "peak": -2.2,
+   "rmsDb": -14.7,
+   "peakAt": 0.12
+  },
+  {
+   "name": "fire_rush",
+   "file": "fire_rush.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.887,
+   "loudness": -14.5,
+   "peak": -2.4,
+   "rmsDb": -12.9,
+   "peakAt": 1.52
+  },
+  {
+   "name": "thunder_far",
+   "file": "thunder_far.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 4.617,
+   "loudness": -20.1,
+   "peak": -2.4,
+   "rmsDb": -17.8,
+   "peakAt": 1.8
+  },
+  {
+   "name": "thunder_crack",
+   "file": "thunder_crack.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 3.326,
+   "loudness": -14.1,
+   "peak": -2.4,
+   "rmsDb": -14.3,
+   "peakAt": 1
+  },
+  {
+   "name": "eng_duellist",
+   "file": "eng_duellist.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.991,
+   "loudness": -17.7,
+   "peak": -6.1
+  },
+  {
+   "name": "lamp_arc",
+   "file": "lamp_arc.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 2,
+   "loop": {
+    "start": 0.1,
+    "length": 2
+   },
+   "seam": 0.983,
+   "loudness": -19.1,
+   "peak": -8.3
+  },
+  {
+   "name": "sand_hiss",
+   "file": "sand_hiss.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 4,
+   "loop": {
+    "start": 0.1,
+    "length": 4
+   },
+   "seam": 0.978,
+   "loudness": -19.5,
+   "peak": -7.2
+  },
+  {
+   "name": "walker_roar",
+   "file": "walker_roar.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 0.999,
+   "loudness": -22.9,
+   "peak": -9.8
+  },
+  {
+   "name": "great_roar",
+   "file": "great_roar.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 1,
+   "loudness": -26.9,
+   "peak": -12.7
+  },
+  {
+   "name": "thunder_roll",
+   "file": "thunder_roll.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 4.693,
+   "loudness": -14.9,
+   "peak": -2.4,
+   "rmsDb": -14.3,
+   "peakAt": 0.29
+  },
+  {
+   "name": "thunder_crack_2",
+   "file": "thunder_crack_2.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 2.148,
+   "loudness": -17.2,
+   "peak": -2.4,
+   "rmsDb": -18.6,
+   "peakAt": 0.13
+  },
+  {
+   "name": "thunder_tear",
+   "file": "thunder_tear.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 3.616,
+   "loudness": -12.7,
+   "peak": -2.2,
+   "rmsDb": -15.7,
+   "peakAt": 1.49
+  },
+  {
+   "name": "lamp_swing",
+   "file": "lamp_swing.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -12.4,
+   "peak": -2.4,
+   "rmsDb": -12,
+   "peakAt": 0.07
+  },
+  {
+   "name": "fodder_tell",
+   "file": "fodder_tell.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.715,
+   "loudness": -16.7,
+   "peak": -2.1,
+   "rmsDb": -18.1,
+   "peakAt": 0.05
+  },
+  {
+   "name": "fodder_die",
+   "file": "fodder_die.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.343,
+   "loudness": -19.8,
+   "peak": -2.3,
+   "rmsDb": -21.3,
+   "peakAt": 0.07
+  },
+  {
+   "name": "duel_ram",
+   "file": "duel_ram.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.951,
+   "loudness": -12.9,
+   "peak": -1.7,
+   "rmsDb": -11.9,
+   "peakAt": 0.06
+  },
+  {
+   "name": "crawler_horn",
+   "file": "crawler_horn.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3,
+   "loudness": -8.2,
+   "peak": -2.2,
+   "rmsDb": -10.6,
+   "peakAt": 0.82
+  },
+  {
+   "name": "walker_take",
+   "file": "walker_take.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.233,
+   "loudness": -10.9,
+   "peak": -2.2,
+   "rmsDb": -13.9,
+   "peakAt": 0.8
+  },
+  {
+   "name": "wreck_fall",
+   "file": "wreck_fall.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.181,
+   "loudness": -13,
+   "peak": -2.5,
+   "rmsDb": -15.7,
+   "peakAt": 0.73
+  },
+  {
+   "name": "eng_harpoon",
+   "file": "eng_harpoon.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.993,
+   "loudness": -19.1,
+   "peak": -5.9
+  },
+  {
+   "name": "winch_whine",
+   "file": "winch_whine.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 2,
+   "loop": {
+    "start": 0.1,
+    "length": 2
+   },
+   "seam": 0.995,
+   "loudness": -19.8,
+   "peak": -6.2
+  },
+  {
+   "name": "cable_sing",
+   "file": "cable_sing.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.996,
+   "loudness": -21.1,
+   "peak": -4.8
+  },
+  {
+   "name": "hull_groan",
+   "file": "hull_groan.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 1,
+   "loudness": -24.7,
+   "peak": -7.8
+  },
+  {
+   "name": "blade_steel",
+   "file": "blade_steel.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.997,
+   "loudness": -21.7,
+   "peak": -9.4
+  },
+  {
+   "name": "chain_idle",
+   "file": "chain_idle.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 2,
+   "loop": {
+    "start": 0.1,
+    "length": 2
+   },
+   "seam": 0.996,
+   "loudness": -19.4,
+   "peak": -5.3
+  },
+  {
+   "name": "wind_salt",
+   "file": "wind_salt.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 4,
+   "loop": {
+    "start": 0.1,
+    "length": 4
+   },
+   "seam": 0.999,
+   "loudness": -22.5,
+   "peak": -8.8
+  },
+  {
+   "name": "gun_turn",
+   "file": "gun_turn.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.2,
+   "loudness": -14.7,
+   "peak": -1.6,
+   "rmsDb": -17.8,
+   "peakAt": 0.86
+  },
+  {
+   "name": "harpoon_shot",
+   "file": "harpoon_shot.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.6,
+   "loudness": -21.9,
+   "peak": -1.9,
+   "rmsDb": -29.9,
+   "peakAt": 0.03
+  },
+  {
+   "name": "harpoon_strike",
+   "file": "harpoon_strike.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.2,
+   "loudness": -26.1,
+   "peak": -2.2,
+   "rmsDb": -20.7,
+   "peakAt": 0.03
+  },
+  {
+   "name": "rib_twang",
+   "file": "rib_twang.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -20,
+   "peak": -2.2,
+   "rmsDb": -24.4,
+   "peakAt": 0.03
+  },
+  {
+   "name": "plate_fall",
+   "file": "plate_fall.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.673,
+   "loudness": -13.7,
+   "peak": -2.2,
+   "rmsDb": -17.5,
+   "peakAt": 0.46
+  },
+  {
+   "name": "cable_snap",
+   "file": "cable_snap.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -25.8,
+   "peak": -2.4,
+   "rmsDb": -22.8,
+   "peakAt": 0.03
+  },
+  {
+   "name": "plate_tear",
+   "file": "plate_tear.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.934,
+   "loudness": -13.7,
+   "peak": -2.2,
+   "rmsDb": -14.9,
+   "peakAt": 1.49
+  },
+  {
+   "name": "plate_burst",
+   "file": "plate_burst.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3.405,
+   "loudness": -15.1,
+   "peak": -2.3,
+   "rmsDb": -16.6,
+   "peakAt": 1.53
+  },
+  {
+   "name": "stern_fall",
+   "file": "stern_fall.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 4.976,
+   "loudness": -16.8,
+   "peak": -2.5,
+   "rmsDb": -11.5,
+   "peakAt": 3.24
+  },
+  {
+   "name": "prop_ring",
+   "file": "prop_ring.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3,
+   "loudness": -13.7,
+   "peak": -2.1,
+   "rmsDb": -13.1,
+   "peakAt": 0.11
+  },
+  {
+   "name": "rib_flick",
+   "file": "rib_flick.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 0.301,
+   "loudness": null,
+   "peak": -2.5,
+   "rmsDb": -17.4,
+   "peakAt": 0.06
+  },
+  {
+   "name": "horde_bed",
+   "file": "horde_bed.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 5,
+   "loop": {
+    "start": 0.1,
+    "length": 5
+   },
+   "seam": 1,
+   "loudness": -23.3,
+   "peak": -10.4,
+   "cut": 152
+  },
+  {
+   "name": "chain_drag",
+   "file": "chain_drag.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.981,
+   "loudness": -23,
+   "peak": -1.5,
+   "cut": 152
+  },
+  {
+   "name": "flare_hiss",
+   "file": "flare_hiss.mp3",
+   "kind": "loop",
+   "bus": "fx",
+   "seconds": 3,
+   "loop": {
+    "start": 0.1,
+    "length": 3
+   },
+   "seam": 0.978,
+   "loudness": -19.1,
+   "peak": -9,
+   "cut": 152
+  },
+  {
+   "name": "horn_far",
+   "file": "horn_far.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.664,
+   "loudness": -10.2,
+   "peak": -2.4,
+   "rmsDb": -11.9,
+   "peakAt": 0.53,
+   "cut": 152
+  },
+  {
+   "name": "row_pass",
+   "file": "row_pass.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.606,
+   "loudness": -14,
+   "peak": -2.4,
+   "rmsDb": -16,
+   "peakAt": 0.27,
+   "cut": 152
+  },
+  {
+   "name": "chain_haul",
+   "file": "chain_haul.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.369,
+   "loudness": -19.1,
+   "peak": -2.1,
+   "rmsDb": -21,
+   "peakAt": 1.01,
+   "cut": 152
+  },
+  {
+   "name": "chain_swing",
+   "file": "chain_swing.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.337,
+   "loudness": -16,
+   "peak": -2.4,
+   "rmsDb": -14.8,
+   "peakAt": 0.36,
+   "cut": 152
+  },
+  {
+   "name": "chain_sweep",
+   "file": "chain_sweep.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.48,
+   "loudness": -15.4,
+   "peak": -2.7,
+   "rmsDb": -20.5,
+   "peakAt": 0.37,
+   "cut": 152
+  },
+  {
+   "name": "pale_drum",
+   "file": "pale_drum.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.404,
+   "loudness": -23.5,
+   "peak": -2.4,
+   "rmsDb": -18.3,
+   "peakAt": 0.05,
+   "cut": 152
+  },
+  {
+   "name": "pale_horn",
+   "file": "pale_horn.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.606,
+   "loudness": -13.7,
+   "peak": -2.4,
+   "rmsDb": -14.9,
+   "peakAt": 0.04,
+   "cut": 152
+  },
+  {
+   "name": "flare_volley",
+   "file": "flare_volley.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 2.613,
+   "loudness": -18.8,
+   "peak": -2.3,
+   "rmsDb": -26,
+   "peakAt": 0.04,
+   "cut": 152
+  },
+  {
+   "name": "crust_crack",
+   "file": "crust_crack.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 1.766,
+   "loudness": -26.9,
+   "peak": -2,
+   "rmsDb": -30.5,
+   "peakAt": 1.14,
+   "cut": 152
+  },
+  {
+   "name": "crust_boom",
+   "file": "crust_boom.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 3.48,
+   "loudness": -21.9,
+   "peak": -2.4,
+   "rmsDb": -19.9,
+   "peakAt": 0.03,
+   "cut": 152
+  },
+  {
+   "name": "salt_roar",
+   "file": "salt_roar.mp3",
+   "kind": "shot",
+   "bus": "fx",
+   "seconds": 4.181,
+   "loudness": -14.5,
+   "peak": -0.9,
+   "rmsDb": -18.8,
+   "peakAt": 1.19,
+   "cut": 152
+  },
+  {
+   "name": "hit_big",
+   "file": "hit_big.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 3.555,
+   "loudness": -15.4,
+   "peak": -2.4,
+   "rmsDb": -12.9,
+   "peakAt": 0.29
+  },
+  {
+   "name": "hit_stamp",
+   "file": "hit_stamp.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.525,
+   "loudness": -23.4,
+   "peak": -2.4,
+   "rmsDb": -22,
+   "peakAt": 0.06
+  },
+  {
+   "name": "crack",
+   "file": "crack.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.48,
+   "loudness": -19.6,
+   "peak": -2.1,
+   "rmsDb": -21.8,
+   "peakAt": 0.03
+  },
+  {
+   "name": "clang_plate",
+   "file": "clang_plate.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 3.48,
+   "loudness": -20,
+   "peak": -2.5,
+   "rmsDb": -26.5,
+   "peakAt": 0.03
+  },
+  {
+   "name": "whoosh_1",
+   "file": "whoosh_1.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 0.782,
+   "loudness": -16.8,
+   "peak": -2.4,
+   "rmsDb": -18.1,
+   "peakAt": 0.17
+  },
+  {
+   "name": "whoosh_2",
+   "file": "whoosh_2.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 1.092,
+   "loudness": -17,
+   "peak": -2.3,
+   "rmsDb": -14.6,
+   "peakAt": 0.18
+  },
+  {
+   "name": "sub_boom",
+   "file": "sub_boom.mp3",
+   "kind": "shot",
+   "bus": "sting",
+   "seconds": 5,
+   "loudness": -14,
+   "peak": -3.3,
+   "rmsDb": -7.4,
+   "peakAt": 3.83
+  },
+  {
+   "name": "vo_1",
+   "file": "vo_1.mp3",
+   "kind": "voice",
+   "bus": "voice",
+   "seconds": 1.397,
+   "t": 0.2,
+   "maxSeconds": 1.4,
+   "fits": true,
+   "text": "There is no road.",
+   "loudness": -16.4,
+   "peak": -1.9
+  },
+  {
+   "name": "vo_2",
+   "file": "vo_2.mp3",
+   "kind": "voice",
+   "bus": "voice",
+   "seconds": 1.392,
+   "t": 10.2,
+   "maxSeconds": 1.4,
+   "fits": true,
+   "text": "There are no brakes.",
+   "loudness": -19.3,
+   "peak": -1.9
+  },
+  {
+   "name": "vo_3",
+   "file": "vo_3.mp3",
+   "kind": "voice",
+   "bus": "voice",
+   "seconds": 2.2,
+   "t": 22.6,
+   "maxSeconds": 2.2,
+   "fits": true,
+   "text": "There is only… maxxing.",
+   "loudness": -18.5,
+   "peak": -1.9
+  },
+  {
+   "name": "score",
+   "file": "score.mp3",
+   "kind": "score",
+   "bus": "music",
+   "seconds": 32,
+   "duration": 32,
+   "loudness": -16.7,
+   "peak": -6.4,
+   "bpm": 120,
+   "beats": "score.beats.json"
+  },
+  {
+   "name": "score-62",
+   "file": "score-62.mp3",
+   "kind": "score",
+   "bus": "music",
+   "seconds": 62,
+   "duration": 62,
+   "loudness": -17.1,
+   "peak": -5.6,
+   "bpm": 120,
+   "beats": "score-62.beats.json"
+  },
+  {
+   "name": "score-92",
+   "file": "score-92.mp3",
+   "kind": "score",
+   "bus": "music",
+   "seconds": 92,
+   "duration": 92,
+   "loudness": -17.1,
+   "peak": -5.6,
+   "bpm": 120,
+   "beats": "score-92.beats.json"
+  },
+  {
+   "name": "score-122",
+   "file": "score-122.mp3",
+   "kind": "score",
+   "bus": "music",
+   "seconds": 122,
+   "duration": 122,
+   "loudness": -17,
+   "peak": -5.6,
+   "bpm": 120,
+   "beats": "score-122.beats.json"
+  },
+  {
+   "name": "score-152",
+   "file": "score-152.mp3",
+   "kind": "score",
+   "bus": "music",
+   "seconds": 152,
+   "duration": 152,
+   "loudness": -16.7,
+   "peak": -5.6,
+   "bpm": 120,
+   "beats": "score-152.beats.json"
+  }
+ ],
+ "totalBytes": 15225087,
+ "spend": 6725
+}

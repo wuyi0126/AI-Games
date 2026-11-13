@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAAD MAXXING</title>
+<meta name="description" content="A buggy chase that plays like a movie trailer. You drive, the camera cuts. Drawn live in the browser: no models, no textures. Desktop and laptop only.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maad-maxxing.vercel.app/">
+<meta property="og:title" content="MAAD MAXXING">
+<meta property="og:description" content="A movie trailer you play. Drawn live in the browser: no models, no textures. Desktop and laptop only.">
+<meta property="og:image" content="https://maad-maxxing.vercel.app/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MAAD MAXXING">
+<meta name="twitter:description" content="A movie trailer you play. Drawn live in the browser: no models, no textures. Desktop and laptop only.">
+<meta name="twitter:image" content="https://maad-maxxing.vercel.app/share.jpg">
+<meta name="theme-color" content="#17110d">
+<!-- The game's own mark: the title's M (made in code: node src/modules/ui/mark.gen.mjs). -->
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<style>html,body{color:#f4f4f2;user-select:none;background:#000;height:100%;margin:0;font-family:-apple-system,SF Pro Display,Helvetica Neue,Inter,Arial,sans-serif;overflow:hidden}#app{width:min(100vw,239vh);height:min(100vh,41.841vw);position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)}#app canvas{width:100%;height:100%;display:block}#ui{pointer-events:none;position:fixed;inset:0}#boot{z-index:50;background:linear-gradient(#000 0 0) top/100% calc(50vh - min(100vh,41.841vw)/2) no-repeat,linear-gradient(#000 0 0) bottom/100% calc(50vh - min(100vh,41.841vw)/2) no-repeat,repeating-linear-gradient(90deg,#0000 0 3px,#0002 3px 4px),radial-gradient(120% 90% at 50% 45%,#3a2a20,#17110d 70%,#0a0706);flex-direction:column;justify-content:center;align-items:center;gap:22px;transition:opacity .6s;display:flex;position:fixed;inset:0}#boot .track{outline-offset:3px;background:#f3e9d622;outline:1px solid #f3e9d655;width:min(46vw,620px);height:6px;overflow:hidden}#bootbar{background:#f3e9d6;width:0;height:100%;transition:width .2s}#boot .line{letter-spacing:.32em;color:#f3e9d6cc;white-space:nowrap;font-size:12px}#boot .warn{color:#f3e9d688;margin-top:-8px;font-size:10px}#fatal{text-align:center;color:#eee;z-index:60;background:#0b0b0d;justify-content:center;align-items:center;padding:40px;font-size:18px;line-height:1.6;display:none;position:fixed;inset:0}</style>
+  <script type="module" crossorigin src="./assets/index-BxE7969Q.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/three.core-BpIcZScr.js">
+</head>
+<body>
+<div id="boot"><div class="track"><div id="bootbar"></div></div><div class="line">REAL-TIME · IN A BROWSER · NO MODELS · NO TEXTURES</div><div class="line warn">FLASHING LIGHTS · PRESS ESC FOR CALM MODE</div></div>
+<div id="app"></div>
+<div id="ui"></div>
+<div id="fatal"></div>
+</body>
+</html>

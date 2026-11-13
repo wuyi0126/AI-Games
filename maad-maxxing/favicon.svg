@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- MAAD MAXXING: the title's M (the game's own stencil lettering) in cream on the dark steel of the plate.
+       Made by src/modules/ui/mark.gen.mjs, with favicon-32.png, favicon.ico and apple-touch-icon.png. -->
+  <defs>
+    <linearGradient id="st" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e2926"/><stop offset="1" stop-color="#110e0c"/></linearGradient>
+    <radialGradient id="r1" cx=".2" cy="1.02" r=".75"><stop offset="0" stop-color="#703418" stop-opacity=".34"/><stop offset="1" stop-color="#703418" stop-opacity="0"/></radialGradient>
+    <radialGradient id="r2" cx=".95" cy=".05" r=".5"><stop offset="0" stop-color="#703418" stop-opacity=".2"/><stop offset="1" stop-color="#703418" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cr" gradientUnits="userSpaceOnUse" x1="0" y1="13.12" x2="0" y2="51.52"><stop offset="0" stop-color="#fbf4e4"/><stop offset="0.55" stop-color="#f3e9d6"/><stop offset="1" stop-color="#e2cca4"/></linearGradient>
+    <mask id="m"><path d="M12.74 13.12L24.64 13.12L31.94 30.78L43.84 13.12L55.74 13.12L50.75 51.52L40.38 51.52L43.13 30.4L33.6 44.61L26.69 44.61L20.86 30.4L18.11 51.52L7.74 51.52Z" fill="#fff"/><path d="M23.1 13.12L25.41 13.12L23.16 30.4L20.86 30.4Z" fill="#000"/><path d="M43.07 13.12L45.38 13.12L43.13 30.4L40.83 30.4Z" fill="#000"/></mask>
+  </defs>
+  <rect width="64" height="64" rx="9" fill="url(#st)"/><rect width="64" height="64" rx="9" fill="url(#r1)"/><rect width="64" height="64" rx="9" fill="url(#r2)"/>
+  <rect width="64" height="64" fill="#050403" opacity=".8" mask="url(#m)" transform="translate(1.15 1.61)"/>
+  <rect width="64" height="64" fill="url(#cr)" mask="url(#m)"/>
+</svg>
