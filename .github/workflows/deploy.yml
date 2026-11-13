@@ -23,8 +23,7 @@ jobs:
         run: |
           mkdir -p _site
           cp ./*.html _site/
-          for archive in games-*.zip; do unzip -q -o "$archive" -d _site; done
-          sed -i 's@return`/`+e@return`/AI-Games/maad-maxxing/`+e@g' _site/maad-maxxing/assets/index-BxE7969Q.js
+          cp -R wusuo-shanmen turbo-tails maad-maxxing _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
