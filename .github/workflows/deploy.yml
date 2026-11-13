@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p _site
           cp ./*.html _site/
-          cp -R wusuo-shanmen turbo-tails maad-maxxing _site/
+          cp -R wusuo-shanmen turbo-tails maad-maxxing starry-nightrider water-keeps evensong cozy-lisbon cozy-bakery tennis _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
