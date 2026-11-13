@@ -1,0 +1,12 @@
+{
+  "name": "Cozy Lisbon",
+  "short_name": "Cozy Lisbon",
+  "description": "A little plane over Lisboa. A free, peaceful flying game.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#1f4fbf",
+  "theme_color": "#f3c53a",
+  "categories": ["games", "entertainment"],
+  "icons": [{ "src": "/AI-Games/cozy-lisbon/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
